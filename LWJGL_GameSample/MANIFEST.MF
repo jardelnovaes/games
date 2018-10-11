@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: .
+Main-Class: jardelnovaes.games.samples.slick2d.SimpleSlickGame
+

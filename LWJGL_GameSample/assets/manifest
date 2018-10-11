@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: . lib/slick.jar lib/AppleJavaExtensions.jar lib/asm-debug-all.jar lib/jinput.jar lib/lwjgl-debug.jar lib/lwjgl.jar lib/lwjgl_test.jar lib/lwjgl_util.jar lib/lwjgl_util_applet.jar lib/lzma.jar lib/slick.jar
+Main-Class: jardelnovaes.games.samples.slick2d.SimpleSlickGame
+
+
