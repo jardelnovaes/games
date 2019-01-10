@@ -10,10 +10,13 @@ set "pkg=jardelnovaes/games/samples/velha/"
 set "src=src/%pkg%"
 set "classes=%pkg%*.class"
 
+if not exist "classes" mkdir classes
+if not exist "bin" mkdir bin
+
 javac -d classes -sourcepath %src% %src%/*.java
 cd classes
 jar -cvfm ../bin/JogoDaVelha.jar ../assets/manifest %classes%
-copy ..\assets\run.cmd ..\bin\run.cmd /Y
+copy ..\assets\run.cmd bin\run.cmd /Y
 cd ..
 
 echo.
